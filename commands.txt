@@ -1,0 +1,9 @@
+livekit-cli join-room --url ws://localhost:7880 --api-key APIExkGGUNFjwB9 --api-secret vXPYQeWS7I1GOAW1yDgRa9L3q1yJWMgNyg0qDXVcRKH --room voice-assistant-1 --identity talhakhan7367
+
+
+
+
+livekit-cli update-participant --room voice-assistant-1 --identity talhakhan7367 --permissions "{\"can_publish\":true,\"can_subscribe\":true,\"can_publish_data\":true}" --api-key APIExkGGUNFjwB9 --api-secret vXPYQeWS7I1GOAW1yDgRa9L3q1yJWMgNyg0qDXVcRKH --url ws://localhost:7880
+
+
+livekit-server --keys "APIExkGGUNFjwB9: vXPYQeWS7I1GOAW1yDgRa9L3q1yJWMgNyg0qDXVcRKH"
